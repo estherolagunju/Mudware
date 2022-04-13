@@ -1,10 +1,11 @@
 import './Landing.css';
-import Images from'./../Images/Mudware.png';
+import MudWareSVG from '../Images/MudWareSVG';
+
 
 const Landing = () => {
     return (
         <div className='landing'>
-            <img src= {Images} alt="" className='mudware-img'/>
+            <MudWareSVG />
         </div>
     )
 }

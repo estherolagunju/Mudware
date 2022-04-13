@@ -2,11 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background: #ffff;
-}
-.mudware-img{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    top: 40%;
+    height: 100vh;
 }
