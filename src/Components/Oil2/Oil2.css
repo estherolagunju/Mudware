@@ -1,0 +1,78 @@
+.oil2{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    left: 50%;
+    background:#0000004D;
+    ;
+    
+}
+.rightoil2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 35%;
+    width:60%;
+    top: 30%;
+    right: 20%;
+    position: absolute;
+  border-radius: 15px;
+  background:#ffff;
+}
+.writupoil2{
+   font-family: poppins;
+   font-size: 14px;
+   font-weight: 600;
+   position: absolute;
+   top: 7%;
+
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 35%;
+    width:75%;
+    top: 40%;
+    right: 11%;
+    position: absolute;
+  border-radius: 15px;
+  background:#E5AA33;
+}
+
+.water-img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 25%;
+    width: 22px;
+    height: 35px;
+    right: 82%;
+
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 100%;
+    width:45%;
+    background:#fbf3e2;
+}
+
+.final{
+    font-size: 35px;
+    top: -35%;
+    color: grey;
+}
+.cp{
+    font-size: 30px;
+    top: -30%;
+    right: 7%;
+    color: rgba(255, 255, 255, 0.53);
+}

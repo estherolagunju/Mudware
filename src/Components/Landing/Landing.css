@@ -1,0 +1,12 @@
+.landing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffff;
+}
+.mudware-img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 40%;
+}
