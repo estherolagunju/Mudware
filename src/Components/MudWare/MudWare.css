@@ -33,7 +33,6 @@
     position: absolute;
     color: #4473B7;
     font-size:13px ;
-    /* line-height: 20px; */
     font-family: poppins;
 }
 
@@ -48,3 +47,34 @@
     right: 0;
   
 } */
+
+@media (max-width: 912px) { 
+    .left{
+     display: none;
+   }
+   /* .right{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffff */
+    /* position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    background:#E5E5E5;
+    right: 0; */
+   
+   /* .left{
+    height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  right: 0;
+  background:#ffff;
+} */
+}
+  

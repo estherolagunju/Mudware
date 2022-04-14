@@ -33,7 +33,7 @@
 
 }
 
-.result{
+.oil-result{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@
   background:#E5AA33;
 }
 
-.water-img{
+.oil2-img{
     position: absolute;
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@
     right: 82%;
 
 }
-.con{
+.oil-con{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,14 +65,39 @@
     background:#fbf3e2;
 }
 
-.final{
+.oil-final{
     font-size: 35px;
     top: -35%;
     color: grey;
 }
-.cp{
+.oil-cp{
     font-size: 30px;
     top: -30%;
     right: 7%;
     color: rgba(255, 255, 255, 0.53);
 }
+
+
+@media (max-width: 912px) { 
+ 
+  .oil2{
+   display: flex;
+   justify-content: center;
+   height: 100%;
+   width: 100%;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   overflow-x: hidden;
+   left: 0;
+   background:#0000004D;
+  }
+  .rightoil2{
+  height: 30%;
+    width:70%;
+    top: 30%;
+    right: 15%;
+}
+
+ }
+

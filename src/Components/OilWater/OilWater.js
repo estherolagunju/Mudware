@@ -1,8 +1,8 @@
 import './OilWater.css';
 import Oil from'./Oil';
-import Images from'./../Images/water.png';
+import Images from'./../Images/Water.svg';
 
-const OilWater = ({handleWater,handleOil}) => {
+const OilWater = ({ handleWater ,handleOil}) => {
 
     return (
         <div className='muud'>  

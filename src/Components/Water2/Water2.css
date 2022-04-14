@@ -9,7 +9,6 @@
     overflow-x: hidden;
     left: 50%;
     background:#0000004D;
-    ;
     
 }
 .rightwater2{
@@ -33,7 +32,7 @@
 
 }
 
-.result{
+.water-result{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +45,7 @@
   background:#4473B7;
 }
 
-.water-img{
+.water2-img{
     position: absolute;
     display: flex;
     justify-content: center;
@@ -56,7 +55,7 @@
     right: 82%;
 
 }
-.con{
+.water-con{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,15 +64,40 @@
     background:#f1f4f9;
 }
 
-.final{
+.water-final{
     font-size: 35px;
     top: -35%;
     color: grey;
 }
-.cp{
+.water-cp{
     font-size: 30px;
     top: -30%;
     right: 7%;
     color: rgba(255, 255, 255, 0.53);
 }
+
+
+@media (max-width: 912px) { 
+ 
+  .water2{
+   display: flex;
+   justify-content: center;
+   height: 100%;
+   width: 100%;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   overflow-x: hidden;
+   left: 0;
+   background:#0000004D;
+  }
+  .rightwater2{
+  height: 30%;
+    width:70%;
+    top: 30%;
+    right: 15%;
+}
+
+
+ }
 

@@ -13,22 +13,24 @@ const App =()=> {
 
   const [gold,setGold]=useState(true)
 
+
+
    useEffect (() => {
    setTimeout(()=>{setGold(false)}, 5000)
   }, [])
   
 
 
+
   return (
 <div>
-{gold?   ( <Landing />) :
-   (  <MudWare /> )   
-    // {/* <Water1 />  */}
-    // {/* <Oil1 />  */}
-    // {/* <Oil2 />  */}
-    // {/* <Water2 /> */}
-    // {/* <OilWater /> */}
-   } 
+{gold?   ( <Landing />) : 
+   (  <MudWare  /> ) }  
+  
+     {/* <Oil2 />  */}
+     {/* <Water2 /> */}
+   {/* <OilWater /> */}
+  
 </div>
 
   );

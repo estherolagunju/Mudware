@@ -8,6 +8,7 @@
     top: 0;
     overflow-x: hidden;
     left: 50%;
+    background:#E5E5E5;
     
 }
 .rightoil1{
@@ -23,7 +24,7 @@
   background:#ffff;
 }
 
-.water-img{
+.oil1-img{
     position: absolute;
     display: flex;
     justify-content: center;
@@ -33,9 +34,10 @@
 
 }
 
-.arrow{
+.oil-arrow{
     left: 50px;
     top: 10%;
+    z-index: 2;
 }
 .writeupoil1{
     display: flex;
@@ -49,7 +51,7 @@
     font-family: poppins;
 }
 
-.form{
+.oil-form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,14 +64,14 @@
     font-family: poppins;
 }
 
-.pressure{
+.oil-pressure{
     left: 100px;
     top: 28%;
     font-size: 13px;
     font-weight: 600;
     position: absolute;
 }
-#pressure{
+#oil-pressure{
     left: 100px;
     top: 32%;
     height: 40px;
@@ -81,14 +83,14 @@
     position: absolute;
 }
 
-.temperature{
+.oil-temperature{
     left: 100px;
     top: 44%;
     font-size: 13px;
     font-weight: 600;
     position: absolute;
 }
-#temperature{
+#oil-temperature{
     left: 100px;
     top: 48%;
     height: 40px;
@@ -100,14 +102,14 @@
 	border-width: thin;
 }
 
-.initial{
+.oil-initial{
     left: 100px;
     top: 60%;
     font-size: 13px;
     font-weight: 600;
     position: absolute;
 }
-#initial{
+#oil-initial{
     left: 100px;
     top: 64%;
     height: 40px;
@@ -122,7 +124,7 @@
 input[type="text"]::placeholder { 
     padding-left: 25px;
 }
-.btn{
+.btn-oil-modal{
     font: poppins;
     position: absolute;
     bottom: 20%;
@@ -133,25 +135,117 @@ input[type="text"]::placeholder {
     border: none;
     border-radius: 5px;
     color: #ffff;
+    z-index: 3;
 }
-.sw{
+.oil-sw{
     display: flex;
     align-items: center;
     font: poppins;
     position: absolute;
-    bottom:-50%;
+    bottom:-60%;
     left: 44%;
     color: #111;
     font-size: 10px;
+    z-index: 1;
 }
-.sp{
+.oil-sp{
     display: flex;
     align-items: center;
     font: poppins;
     position: absolute;
-    bottom:-50%;
+    bottom:-60%;
     left: 52%;
     color: #4473B7;
     font-size: 10px;
+    z-index: 1;
 }
+
+
+@media (max-width: 912px) { 
+ 
+    .oil1{
+     display: flex;
+     justify-content: center;
+     height: 100%;
+     width: 100%;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     overflow-x: hidden;
+     left: 0;
+     background:#edededef;
+     
+   }
+   .rightoil1{
+    height: 90%;
+    width: 85%;
+   }
+   .oil1-img{
+    width: 35px;
+    height: 80px;
+   }
+   .writeupoil1{
+       top: 17%;
+       font-size: 16px;
+
+   }
+   .oil-arrow{
+    top: 15%;  
+}
+.oil-form{
+    width:90%;
+    right: 0;
+}
+
+.oil-pressure{
+    left: 10px;
+    top: 30%;
+    font-size: 14px;
+}
+#oil-pressure{
+    left: 10px;
+    top: 34%;
+    width: 270px;
+}
+
+.oil-temperature{
+    left: 10px;
+    top: 45%;
+    font-size: 14px;
+}
+#oil-temperature{
+    left: 10px;
+    top: 49%;
+    width: 270px;
+}
+
+.oil-initial{
+    left: 10px;
+    top: 60%;
+    font-size: 14px;
+}
+#oil-initial{
+    left: 10px;
+    top: 64%;
+    height: 40px;
+    width: 270px;
+}
+
+.btn-oil-modal{
+    width: 150px;
+    height: 45px;
+    left: 32%;
+    font-size: 17px;
+}
+.oil-sw{
+    left: 29%;
+    font-size: 13px;
+}
+.oil-sp{
+    left: 46%;
+    font-size: 13px;
+}
+
+}
+
 

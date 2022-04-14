@@ -24,7 +24,7 @@
   background:#ffff;
 }
 
-.water-img{
+.water1-img{
     position: absolute;
     display: flex;
     justify-content: center;
@@ -34,9 +34,10 @@
 
 }
 
-.arrow{
+.water-arrow{
     left: 50px;
     top: 10%;
+    z-index: 2;
 }
 .writeup1{
     display: flex;
@@ -50,7 +51,7 @@
     font-family: poppins;
 }
 
-.form{
+.water-form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,14 +64,14 @@
     font-family: poppins;
 }
 
-.pressure{
+.water-pressure{
     left: 100px;
     top: 28%;
     font-size: 13px;
     font-weight: 600;
     position: absolute;
 }
-#pressure{
+#water-pressure{
     left: 100px;
     top: 32%;
     height: 40px;
@@ -82,14 +83,14 @@
     position: absolute;
 }
 
-.temperature{
+.water-temperature{
     left: 100px;
     top: 44%;
     font-size: 13px;
     font-weight: 600;
     position: absolute;
 }
-#temperature{
+#water-temperature{
     left: 100px;
     top: 48%;
     height: 40px;
@@ -101,14 +102,14 @@
 	border-width: thin;
 }
 
-.initial{
+.water-initial{
     left: 100px;
     top: 60%;
     font-size: 13px;
     font-weight: 600;
     position: absolute;
 }
-#initial{
+#water-initial{
     left: 100px;
     top: 64%;
     height: 40px;
@@ -123,7 +124,7 @@
 input[type="text"]::placeholder { 
     padding-left: 25px;
 }
-.btn{
+.btn-water-modal{
     font: poppins;
     position: absolute;
     bottom: 20%;
@@ -134,25 +135,116 @@ input[type="text"]::placeholder {
     border: none;
     border-radius: 5px;
     color: #ffff;
+    z-index: 2;
 }
-.sw{
+.water-sw{
     display: flex;
     align-items: center;
     font: poppins;
     position: absolute;
-    bottom:-50%;
+    bottom:-60%;
     left: 45%;
     color: #111;
     font-size: 10px;
+    z-index: 1;
 }
-.sp{
+.water-sp{
     display: flex;
     align-items: center;
     font: poppins;
     position: absolute;
-    bottom:-50%;
+    bottom:-60%;
     left: 53%;
     color: #E5AA33;
     font-size: 10px;
+    z-index: 1;
+}
+
+
+@media (max-width: 912px) { 
+ 
+    .water1{
+     display: flex;
+     justify-content: center;
+     height: 100%;
+     width: 100%;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     overflow-x: hidden;
+     left: 0;
+     background:#edededef;
+     
+   }
+   .rightwater1{
+    height: 90%;
+    width: 85%;
+   }
+   .water1-img{
+    width: 35px;
+    height: 80px;
+   }
+   .writeup1{
+       top: 17%;
+       font-size: 16px;
+
+   }
+   .water-arrow{
+    top: 15%;  
+}
+.water-form{
+    width:90%;
+    right: 0;
+}
+
+.water-pressure{
+    left: 10px;
+    top: 30%;
+    font-size: 14px;
+}
+#water-pressure{
+    left: 10px;
+    top: 34%;
+    width: 270px;
+}
+
+.water-temperature{
+    left: 10px;
+    top: 45%;
+    font-size: 14px;
+}
+#water-temperature{
+    left: 10px;
+    top: 49%;
+    width: 270px;
+}
+
+.water-initial{
+    left: 10px;
+    top: 60%;
+    font-size: 14px;
+}
+#water-initial{
+    left: 10px;
+    top: 64%;
+    height: 40px;
+    width: 270px;
+}
+
+.btn-water-modal{
+    width: 150px;
+    height: 45px;
+    left: 32%;
+    font-size: 17px;
+}
+.water-sw{
+    left: 31%;
+    font-size: 13px;
+}
+.water-sp{
+    left: 47%;
+    font-size: 13px;
+}
+
 }
 

@@ -1,5 +1,5 @@
 import './OilWater.css';
-import Images from'./../Images/oil.png';
+import Images from'./../Images/Oil.svg';
 
 const Oil = () => {
     return (

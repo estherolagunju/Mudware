@@ -34,7 +34,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* top: 15%; */
+  /* right: 30px; */
   width: 22px;
   height: 35px;
 
@@ -88,4 +88,46 @@ p{
   color: #E5AA33;
   font-weight: 800;
   font-family: poppins;
+}
+
+@media (max-width: 912px) { 
+ 
+ .muud{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  left: 0;
+  background:#edededef;
+  
+}
+p{
+  font-size: 24px;
+}
+.card1{
+  height: 25%;
+    width: 50%;
+}
+.water-img{
+  width: 40px;
+    height: 80px;
+}
+.com{
+  font-size: 18px;
+}
+.card2{
+  height: 25%;
+    width: 50%;
+}
+.oil-img{
+  width: 40px;
+    height: 80px;
+}
+.comm{
+  font-size: 18px;
+}
 }

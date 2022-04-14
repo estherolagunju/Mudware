@@ -1,17 +1,19 @@
 import './Oil2.css';
-import Images from'./../Images/water2.png';
+import Images from'./../Images/Trans.svg';
 
-const Oil2 = () => {
+const Oil2 = ({toggleModal2}) => {
     return (
-        <div className='oil2'>  
+        <div
+        onClick={toggleModal2}
+        className='oil2'>  
             <div className='rightoil2'>
                 <p className='writeupoil2'>WBM PV at HTHP conditions</p>
-             <div className='result'>
-             <img src= {Images} alt="" className='water-img'/>
-             <div className='con'>
-                 <p className='final'>34.4 </p>
+             <div className='oil-result'>
+             <img src= {Images} alt="" className='oil2-img'/>
+             <div className='oil-con'>
+                 <p className='oil-final'>34.4 </p>
              </div> 
-             <p className='cp'>cP</p>  
+             <p className='oil-cp'>cP</p>  
              </div>   
             </div>
         </div>

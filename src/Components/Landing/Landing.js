@@ -1,5 +1,5 @@
 import './Landing.css';
-import Images from'./../Images/Mudware.png';
+import Images from'./../Images/Mudware.svg';
 
 const Landing = () => {
     return (
